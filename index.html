@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">
+        <img src="./favorite-4_th.jpg">
+        <img src="./dove.png">
+        <img src="./favorite-1.jpg">
+        <img src="./favorite-1_th.jpg">
+        <img src="./favorite-2.jpg">
+        <img src="./favorite-2_th.jpg">
+        <img src="./favorite-3.jpg">
+        <img src="./favorite-3_th.jpg">
+        <img src="./favorite-4.jpg">
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+body { margin: 0; }
+
+.outer {
+  width: 100%;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 16px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin: 0 16px 16px 0;
+  border: 1px solid #000;
+}
+</style>
